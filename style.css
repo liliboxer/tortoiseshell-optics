@@ -20,6 +20,10 @@ body{
   background-color:Cadetblue;
   display: flex;
   justify-content: space-between;
+  height: 3.5rem;
+  margin-top: 1rem;
+
+
 }
 
 .top-logo{
@@ -37,6 +41,7 @@ body{
 
 .top-logo h1{
   display: flex;
+  font-size: 1rem;
 }
 
 .nav{
@@ -57,5 +62,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
   height: 30rem;
+
 }
