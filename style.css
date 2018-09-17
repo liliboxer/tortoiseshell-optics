@@ -70,8 +70,6 @@ body{
   display: flex;
   margin-top: 10rem;
   width: 37.73%;
-
-
 }
 
 .headline span{
@@ -79,10 +77,39 @@ body{
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
-  padding: 1.5rem 5rem;
-  border: 1px solid black;
-
+  margin: 1.5rem 5rem;
 }
 
 
-/* HEADLINE */
+/* SERVICES */
+
+.services{
+  display: flex;
+  height: 8rem;
+  margin: 3rem auto;
+  justify-content: center;
+}
+
+.services span{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.eyes{
+  display: flex;
+  flex-direction: column;
+  width: 7.1rem;
+}
+
+.fittings{
+  display: flex;
+  flex-direction: column;
+  margin: 0 6rem;
+  width: 9.1rem;
+}
+
+.delivery{
+  display: flex;
+  flex-direction: column;
+  width: 10.3rem;
+}
