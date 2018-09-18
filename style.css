@@ -65,17 +65,18 @@ body{
 
 
 .headline{
-  background-color: white;
   margin-top: 10rem;
   text-align: right;
 }
 
 .headline p{
+  background-color: white;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
   padding: 1.5rem 5rem;
   display: inline-block;
+  margin-right: -2rem;
 }
 
 /* SERVICES */
