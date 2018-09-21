@@ -245,6 +245,11 @@ body{
 
   .footer{
     width: 100%;
+    padding-left: 0rem;
+  }
+
+  .bottom-logo img{
+    margin: 0 auto;
   }
 
   .bottom-logo p{
