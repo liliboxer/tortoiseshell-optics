@@ -89,11 +89,14 @@ body{
 
 .service-item{
   margin: 0 3rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 
 .img-wrapper, .txt-wrapper{
-  width: 5rem;
   height: 4rem;
   margin: auto 3rem;
   text-align: center;
