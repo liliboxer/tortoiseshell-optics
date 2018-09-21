@@ -1,6 +1,5 @@
 /* GLOBAL ADJUSTMENTS */
 
-
 body{
   font-family: Helvetica;
   font-size: 18px;
@@ -63,7 +62,6 @@ body{
   padding-top: 1rem;
 }
 
-
 .headline{
   margin-top: 10rem;
   text-align: right;
@@ -81,41 +79,32 @@ body{
 
 /* SERVICES */
 
-.services{
+.service-container{
   display: flex;
   height: 8rem;
   margin: 3rem auto;
   justify-content: center;
+
 }
 
-.services span{
-  display: inline-flex;
-  justify-content: center;
+.service-item{
+  margin: 0 3rem;
+
 }
 
-.eyes span{
-  display: flex;
+.img-wrapper, .txt-wrapper{
+  width: 5rem;
+  height: 4rem;
+  margin: auto 3rem;
+  text-align: center;
 }
 
-.fittings span{
-  display: flex;
+
+
+.left-icon{
+  width: 3.5rem;
 }
 
-.eyes{
-  display: flex;
-  flex-direction: column;
-  width: 7.1rem;
-}
-
-.fittings{
-  display: flex;
-  flex-direction: column;
-  margin: 0 6rem;
-  width: 9.1rem;
-}
-
-.delivery{
-  display: flex;
-  flex-direction: column;
-  width: 10.3rem;
+.right-icon{
+  width: 5rem;
 }
