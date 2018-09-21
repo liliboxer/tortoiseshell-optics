@@ -51,6 +51,13 @@ body{
   margin: 0 2rem;
 }
 
+.menu{
+  color: white;
+  font-size: 1rem;
+  margin-right: 2rem;
+  display: none;
+}
+
 /* MAIN BANNER */
 
 .main-banner{
@@ -113,7 +120,6 @@ body{
 .business-info{
   display: flex;
   justify-content: center;
-
 }
 
 .section-wrapper{
@@ -158,8 +164,9 @@ body{
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1024px){
+
   .container{
-  width: 100%;
+    width: 100%;
   }
 
   .main-banner{
@@ -175,5 +182,74 @@ body{
     padding: 0.75rem 4rem;
     font-size: 1.33rem;
   }
+
+}
+
+@media only screen and (max-width: 470px){
+
+  .nav{
+    display: none;
+  }
+
+  .menu{
+    display:block;
+  }
+
+  .main-banner{
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .headline p{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .service-container{
+    width: 50%;
+    flex-flow: row wrap;
+
+  }
+
+  .txt-wrapper p{
+    font-size: 0.77rem;
+  }
+
+  .middle-service{
+    margin: 1.54rem auto;
+  }
+
+  .business-info{
+    flex-flow: column;
+    margin-top: 20rem;
+  }
+
+  .title-wrapper{
+    width: 100%;
+    text-align: center;
+  }
+
+  .description-wrapper{
+    font-size: 0.77rem;
+    margin: 1rem 0 4rem 0;
+  }
+
+  .section-wrapper{
+    width: 100%;
+  }
+
+  .right-wrapper{
+    margin-left: 0;
+  }
+
+  .footer{
+    width: 100%;
+  }
+
+  .bottom-logo p{
+    display: none;
+  }
+
 
 }
