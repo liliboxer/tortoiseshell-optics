@@ -84,7 +84,6 @@ body{
   height: 8rem;
   margin: 3rem auto;
   justify-content: center;
-
 }
 
 .service-item{
@@ -93,7 +92,6 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .img-wrapper, .txt-wrapper{
@@ -102,12 +100,40 @@ body{
   text-align: center;
 }
 
-
-
 .left-icon{
   width: 3.5rem;
 }
 
 .right-icon{
   width: 5rem;
+}
+
+/* BUSINESS INFO */
+
+.business-info{
+  display: flex;
+  justify-content: center;
+
+}
+
+.section-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.right-wrapper{
+  margin-left: 5%;
+}
+
+.title-wrapper{
+  width: 10rem;
+}
+
+.title-wrapper p{
+  background-color: Cadetblue;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
 }
