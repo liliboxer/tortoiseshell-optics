@@ -137,3 +137,20 @@ body{
   font-size: 1rem;
   padding: 0.5rem 0 0.5rem 1.25rem;
 }
+
+/* FOOTER */
+
+.footer{
+  background-color: azure;
+  padding: 4rem 0 4rem 4rem;
+  margin-top: 5rem;
+}
+
+.bottom-logo{
+  display: flex;
+  align-items: center;
+}
+.bottom-logo img{
+  height: 1.5rem;
+  margin-right: 1rem;
+}
